@@ -40,9 +40,7 @@ ENV/
 # Data directories
 data/
 agent_logs/
-tasks/
-eval_results/
-data/tasks/filter_info/
+
 
 # Logs
 *.log
