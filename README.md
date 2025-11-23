@@ -173,13 +173,12 @@ scripts/                # Executable scripts
 └── evaluate.py         # Evaluation script
 
 examples/               # Example code and data
+
 docs/                   # Documentation
-data/                   # Data files (gitignored)
-├── tasks/              # Task data
-│   ├── raw/            # Raw tasks
-│   ├── filtered/       # Filtered tasks
-│   └── templates/      # DAG templates
-└── eval_results/       # Evaluation results
+
+author_data/            # Author data files
+├── aflow_train_tasks/  # Training set for AFlow
+└── test_tasks/         # Test set
 ```
 
 ## Usage Guide
@@ -188,7 +187,7 @@ For detailed usage instructions, please refer to:
 
 - [Usage Guide](docs/usage.md) - Detailed feature usage instructions
 - [Architecture Documentation](docs/architecture.md) - System architecture description
-- [Example Code](examples/) - Code examples
+- [Example Code and Data](examples/) - Code and Data examples
 
 ## Task Domains
 
